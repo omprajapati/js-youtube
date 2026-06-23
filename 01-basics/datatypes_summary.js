@@ -42,3 +42,18 @@
 // };
 // console.log(typeof myFunction); // object
 // console.log(myFunction instanceof Function); // true
+
+// Memory
+// Stack (Primitive) => Copy of original
+// Heap (Non Primitive)
+
+let myYoutubeName = "sanju@youtube";
+console.log(myYoutubeName);
+
+let anotherName = myYoutubeName; // this gives a copy of myYoutubeName
+console.log(anotherName);
+
+anotherName = "myAnotherChannel"; // only changes copy, not a original myYoutubeName
+
+console.log(myYoutubeName);
+console.log(anotherName); // so the results are different
