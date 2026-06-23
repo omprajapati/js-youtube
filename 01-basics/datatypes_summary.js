@@ -47,13 +47,25 @@
 // Stack (Primitive) => Copy of original
 // Heap (Non Primitive)
 
-let myYoutubeName = "sanju@youtube";
-console.log(myYoutubeName);
+// let myYoutubeName = "sanju@youtube";
+// console.log(myYoutubeName);
 
-let anotherName = myYoutubeName; // this gives a copy of myYoutubeName
-console.log(anotherName);
+// let anotherName = myYoutubeName; // this gives a copy of myYoutubeName
+// console.log(anotherName);
 
-anotherName = "myAnotherChannel"; // only changes copy, not a original myYoutubeName
+// anotherName = "myAnotherChannel"; // only changes copy, not a original myYoutubeName
 
-console.log(myYoutubeName);
-console.log(anotherName); // so the results are different
+// console.log(myYoutubeName);
+// console.log(anotherName); // so the results are different
+
+let userOne = {
+  email: "salina@gmail.com",
+  age: 24,
+};
+
+let userTwo = userOne;
+
+userTwo.email = "awal@salina.com";
+
+console.log(userOne.email);
+console.log(userTwo.email);
