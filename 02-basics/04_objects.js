@@ -88,5 +88,31 @@ const girl = {
 
 // check if a property is in object
 // object.hasOwnProperty('propertyName');
-console.log(girl.hasOwnProperty("isLoggedIn")); // true
-console.log(girl.hasOwnProperty("isLoggedOut")); // false
+// console.log(girl.hasOwnProperty("isLoggedIn")); // true
+// console.log(girl.hasOwnProperty("isLoggedOut")); // false
+
+// de-structuring
+// const course = {
+//   courseName: "JavaScript",
+//   price: 999,
+//   courseInstructor: "sanju",
+// };
+// console.log(course.courseInstructor);
+
+// const { courseInstructor } = course;
+// console.log(courseInstructor);
+// const { courseInstructor: teacher } = course; // here "teacher" is user-defind name for easiness
+// console.log(teacher);
+
+// {
+//     "name": "sanju",
+//     "coursename": "javascript",
+//     "price": "free"
+// };
+
+// json format
+[
+    {}, 
+    {}, 
+    {}
+];
